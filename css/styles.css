@@ -11,24 +11,41 @@ body {
 .container {
     flex: 1;    /* same as flex-grow: 1; */
 }
-ul {
+.navbar-nav li {
+  display: inline;
+  text-decoration: none;
+  
+  
+}
+nav li {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 60px;
+  display: inline;
+  
+ 
 }
+.navbar{
+  margin-top: 50px;
+  margin-left:850px;
+}
+ol{
+  color: #0EE6B7;
+}
+.navbar-nav a{
+  color:#0EE6B7 ;
+  text-decoration: none;
 
-li a {
-  display: block;
 }
-ul a {
-    display: inline;
-    width: 60px;
-  }
-  #nav{
-      stroke: 0.5px solid #0EE6B7 ;
-    }
-h3{color:#0EE6B7 
+hr{
+  border:0.01px #0EE6B7 solid;
+  width:95%;
+  height: 0.5px;
+  margin-top: 50px;
+  margin-left:20px;
+}
+h3{color:#0EE6B7 ;
 
       }
 p{
