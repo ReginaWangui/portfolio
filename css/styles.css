@@ -11,13 +11,17 @@ body {
 .container {
     flex: 1;    /* same as flex-grow: 1; */
 }
-#nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-  }
-  #nav li a {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
+ul a {
     display: inline;
     width: 60px;
   }
