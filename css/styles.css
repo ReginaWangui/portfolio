@@ -51,7 +51,39 @@ h3{color:#0EE6B7 ;
 p{
     color: #72D7F9;
 }
+.row {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.row-details{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
+}
+.row-img {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.column-4 {
+  flex: 30%;
+  margin: 20px;
+}
+.row-img img{
+  width: 250px;
+height: 200px;
+left: 1078px;
+top: 721px;
+margin: 20px;
+}
 * {
     box-sizing: border-box;
     font-family: ’Lato’, sans-serif;
