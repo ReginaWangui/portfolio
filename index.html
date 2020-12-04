@@ -2,13 +2,14 @@
 <html>
 <head>
 <title><img src="img/self.jpg" height="200px" width="200px">Regina's portfolio</title>
-<link rel="stylesheet" type="css/text" href="css/styles.css"> 
+<link rel="stylesheet" type="text/css" href="css/styles.css"> 
 
 </head>
 <body>
 <div class="container">
-   <div class="header">
-      <nav>
+
+   <div>
+      <nav id="nav">
           <ul>
               <li style="background-color: #119883; width: 10px;"><a href="#index.html">Home</a></li>
               <li><a href="my-projects.html">My projects</a></li>
@@ -16,6 +17,7 @@
           </ul>
       </nav>
    </div>
+
    <div class="content">
       <h3>Hello</h3>
       <p>I'm Regina</p>
@@ -29,22 +31,65 @@
 
 
 
-<footer>
-    <div class="row" style="columns:4 100px;">
-      <div class="column" width="25%">
-          <p>reginahwangui801@gmail.com</p>
+   <footer>
+    <!-- Footer main -->
+    <section class="ft-main">
+      <div class="ft-main-item">
+        <h2 class="ft-title">About</h2>
+        <ul>
+          <li>name</li>
+          <li>profession</li>
+          <li>Experience</li>
+        </ul>
       </div>
-      <div class="column" width="25%">
-          <p>Reginah Wangui</p>
+      <div class="ft-main-item">
+        <h2 class="ft-title">My Projects</h2>
+        <ul>
+          <li>web pages</li>
+          <li>links</li>
+          
+        </ul>
       </div>
-      <div class="column" width="25%">
-          <p>wangui_reginah</p>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Contact</h2>
+        <ul>
+          <li>contact form</li>
+          <li>social media links</li>
+          
+        </ul>
       </div>
-      <div class="column" width="25%">
-          <p>2020 copyright</p>
+      <div class="ft-main-item">
+        <h2 class="ft-title">Get intouch</h2>
+        <form>
+          <input type="email" name="email" placeholder="Enter email address">
+          <input type="submit" value="Send">
+        </form>
       </div>
-    </div>
-</footer>
+    </section>
+   
+    <!-- Footer social -->
+    <section class="ft-social">
+      <ul class="ft-social-list">
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#@wangui_reginah"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#https://www.instagram.com/reginahwangui"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#https://github.com/ReginaWangui"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+    </section>
+   
+    <!-- Footer legal -->
+    <section class="ft-legal">
+      <ul class="ft-legal-list">
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#@wangui_reginah"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#https://www.instagram.com/reginahwangui"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#https://github.com/ReginaWangui"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        <li style="float: right;">&copy; 2019 Copyright Nowrap Inc.</li>
+      </ul>
+    </section>
+  </footer>
 
 
 </div>
