@@ -11,28 +11,45 @@ body {
 .container {
     flex: 1;    /* same as flex-grow: 1; */
 }
-.navbar-nav li {
-  display: inline;
+
+.column-nav {
+  list-style: none; 
   text-decoration: none;
-  
-  
+  display: inline;
 }
-nav li {
-  list-style-type: none;
+.column-nav li {
+  text-decoration: none;
+  float: left;
+  top: 10%;
+  left: 20%;
+  margin: 20px;
+   padding: 20px;
+   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 60px;
+  overflow: hidden;
   display: inline;
-  
- 
+  text-decoration: none;
+  color:#687B77;
 }
-.navbar{
+.column-nav -nav li a {
+  display: block;
+  color:#687B77;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+.column-nav li a:hover {
+  background-color:#0EE6B7;
+  color:#18233A;
+}
+.column-nav {
   margin-top: 50px;
   margin-left:850px;
 }
-ol{
-  color: #0EE6B7;
-}
+
 .navbar-nav a{
   color:#0EE6B7 ;
   text-decoration: none;
@@ -50,6 +67,12 @@ h3{color:#0EE6B7 ;
       }
 p{
     color: #72D7F9;
+}
+.row-self{
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
 }
 .row {
   display: flex;
@@ -173,6 +196,8 @@ input[type="submit"] {
   display: flex;
   flex-wrap: wrap;
   color: #777;
+  padding-left: 0px;
+  margin: 0px;
 }
 .ft-legal-list li {
   margin: 0.125rem 0.625rem;
