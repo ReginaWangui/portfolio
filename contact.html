@@ -11,23 +11,75 @@
 </head>
 <body>
 
-    <div class="row-nav" style="columns:100px ; margin:20px;">
-        <div class="column" style=" float:left;">
-            <img src="img/RLOGO.jpeg" style="height: 100px; width: 100px;">
+  <div class="row-self" style="columns:100px 2; margin:20px;">
+    <div class="column">
+      <img src="img/RLOGO.jpeg" width="20%" style="width: 100px; height: 70px; float: left;">>
+      </div>
+        <div class="column" style="width: 80%;">
+  <div class="topnav" id="myTopnav" style="width: 80%; margin-left: 0px;">
+    <a href="#index.html" class="active">Home</a>
+    <a href="my-projects.html">portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+</div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </div>
+
+   <div>
+    <div class="row-contact" style="columns:100px 3; margin:20px; width: 100%;">
+      <div class="column" style="width: 20;"> 
+      <h3 style="color: #0EE6B7;">The Developers</h3>
+      <img src="img/boy.jpg" width="400px"  height="400px">
+      </div>
+
+      
+          <div class="column" style="width: 60%;" >
+            
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+           
+<script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+           
+              <div class="column" style="width: 20%;">
+                
+                <img src="img/developer.webp" width="385px" height="400px" style="margin-top: 20px;"> 
+                </div>
         </div>
-    <div class="column-nav" style=" float:right;">     
-   <nav class="navbar navbar-expand-md navbar-light bg-light">
-   
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav">
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="my-projects.html" >My Projects</a></li>
-            <li><a href="#contact.html" >Contacts<a></li>
-        </div>
-    </div>
-   </nav>
    </div>
-    </div>
 
 
 
@@ -40,10 +92,7 @@
 
 
 
-
-
-
-<footer>
+   <footer>
     <!-- Footer main -->
     <section class="ft-main">
       <div class="ft-main-item">
@@ -91,14 +140,13 @@
     </section>
    
     <!-- Footer legal -->
-    <section class="ft-legal">
+    <section class="ft-legal" style="float: right; margin:0px; width: 100%;">
       <ul class="ft-legal-list">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#@wangui_reginah"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#https://www.instagram.com/reginahwangui"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#https://github.com/ReginaWangui"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        <li style="float: right;">&copy; 2019 Copyright </li>
+        <li><a href="#"><i class="fab fa-facebook" style="margin: 3px;"></i></a><img src="img/fb.png" style="height: 30px; width: 30px; "></i></a>Regina Wangui</li>
+        <li><a href="#@wangui_reginah"><i class="fab fa-twitter" style="margin: 30px;"><img src="img/twitter.jpg" style="height: 30px; width: 30px;"></i></a>wangui_reginah</li>
+        <li><a href="#https://www.instagram.com/reginahwangui"><i class="fab fa-instagram" style="margin: 30px;"><img src="img/insta.jpeg" style="height: 30px; width: 30px;"></i></a>Regina Wangui</li>
+        <li><a href="#https://github.com/ReginaWangui"><i class="fab fa-linkedin" style="margin: 30px;"><img src="img/linked.png" style="height: 30px; width: 30px;"></i></a>Reginah Wangui</li>
+        <li style="float: right;">2020 Copyright</li>
       </ul>
     </section>
   </footer>
