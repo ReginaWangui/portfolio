@@ -1,6 +1,8 @@
 
 html{
-background-color:#18233A;
+background-image: url("self.jpg");
+background-color: #18233A;
+
 
 }
 body {
@@ -12,32 +14,16 @@ body {
     flex: 1;    /* same as flex-grow: 1; */
 }
 
-.column-nav {
-  list-style: none; 
+
+
+ .navbar ul li {
+  /* text-decoration: none; */
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
   text-decoration: none;
-  display: inline;
-}
-.column-nav li {
-  text-decoration: none;
-  float: left;
-  top: 10%;
-  left: 20%;
-  margin: 20px;
-   padding: 20px;
-   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline;
-  text-decoration: none;
-  color:#687B77;
-}
-.column-nav -nav li a {
-  display: block;
-  color:#687B77;
-  text-align: center;
-  padding: 14px 16px;
-  
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -53,6 +39,10 @@ body {
 .navbar-nav a{
   color:#0EE6B7 ;
   text-decoration: none;
+  font-size: 28px;
+  list-style: none;
+  padding: 10px;
+
 
 }
 hr{
@@ -73,6 +63,10 @@ p{
   animation-name: example;
   animation-duration: 3s;  
   animation-fill-mode: forwards;
+}
+img{
+  border-style: solid;
+  border-color:#00d188;
 }
 .row {
   display: flex;
@@ -174,13 +168,6 @@ input[type="submit"] {
 .ft-social {
   padding: 0 1.875rem 1.25rem;
 }
-.ft-social-list {
-  display: flex;
-  justify-content: center;
-  border-top: 1px #777 solid; 
-  padding-top: 1.25rem;
-  color: #777;
-}
 .ft-social-list li {
   margin: 0.5rem;
   font-size: 1.25rem;
@@ -198,6 +185,8 @@ input[type="submit"] {
   color: #777;
   padding-left: 0px;
   margin: 0px;
+  justify-content: center;
+  padding-top: 1.25rem;
 }
 .ft-legal-list li {
   margin: 0.125rem 0.625rem;
