@@ -3,9 +3,11 @@ html{
 background-color: #18233A;
 
 
+
 }
 body {
   background-color: #18233A;
+  
 }
 .container {
     flex: 1;    /* same as flex-grow: 1; */
@@ -16,7 +18,6 @@ body {
 }
 /* Add a black background color to the top navigation */
 .topnav {
- 
   overflow: hidden;
   margin-top: 20px;
 }
@@ -29,7 +30,8 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
+
   list-style: none;
   background-repeat: no-repeat;
 }
@@ -56,7 +58,8 @@ hr{
   border:0.01px #7777 solid;
   width:95%;
   height: 0.5px;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   margin-left:20px;
 }
 #animation{
@@ -126,6 +129,7 @@ p{
   padding-right: 20px;
 
 }
+
 .row-img {
   display: flex;
   margin-right: 20px;
