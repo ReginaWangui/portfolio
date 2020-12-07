@@ -2,7 +2,6 @@
 #### {About Regina Wangui.}, {4/12/2020}
 #### By **{There were no contributors apart from Regina Wangui only.}**
 ## Description
-{This is a website outlining the information on Regina Wangui and how he is currently fairing with programming at Moringa School.}
 ## Setup/Information
 * The website has a Home and About button used to scroll through.
 * The home page has information on github projects by Regina Wangui.
@@ -19,4 +18,3 @@
 ### License
 {MIT License
 Copyright (c) 2020 Regina Wangui}
-## {Author- Regina Wangui.}
