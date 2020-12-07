@@ -4,41 +4,50 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-<title><img src="img/self.jpg" height="200px" width="200px">Regina's portfolio</title>
+<title>Regina's portfolio</title>
 
 <link rel="stylesheet" type="text/css" href="css/styles.css"> 
 
 </head>
-<body>
+<body >
 <div class="container">
 
-    <div class="row-nav" style="columns:100px ; margin:20px;">
-        <div class="column" style=" float:left;"width="40%">
-            <img src="img/RLOGO.jpeg" style="height: 70px; width: 100px;">
-        </div>
-    <div class="column-nav" width="60%">     
-   <nav class="navbar navbar-expand-md navbar-light bg-light">
-   
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav" style=" float: left; text-decoration-line: none; display: inline;">     
-            
-            <li><a href="#index.html" >Home</a></li>
-          
+  <div class="topnav" id="myTopnav" style="width: 80%; margin-left: 500px;">
+    <a href="#index.html" class="active">Home</a>
+    <a href="#my-projects.html">portfolio</a>
+    <a href="#contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 
-        </div>
-    </div>
-   </nav>
-   </div>
-
-    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </div>
    <hr>
    
-    <div  style="margin: 50px; float:center; padding-left: 1090px;">
-      <h3>Hello
-        <p>I'm Regina</p>
-      </h3>
+  
+    
+      <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+      style="background-color:#2C3458;color:#72D7F9; width:500px;height:100px;padding:40px; margin-left: 400px;">
+      dont be shy say hi</div>
       
-    </div>
+      <script>
+      function mOver(obj) {
+        obj.innerHTML = "Hello Am Regina the person your looking for"
+      }
+      
+      function mOut(obj) {
+        obj.innerHTML = "dont be shy say hi"
+      }
+    </script>
 
 
    <div class="row-self" style="columns:100px 2; margin:20px;">
@@ -72,10 +81,10 @@
             <p style="color: #0EE6B7; text-align: center;">web development at</p>
             <p style="color: #0EE6B7; text-align: center;">Nairobits Trust.</p>
            <p style="color: #0EE6B7; text-align: center;">Skills:</p>
-           <ol style="text-align: center; color: #0EE6B7;">photoshop<ol>
-           <ul style="text-align: center; color: #0EE6B7;">php</ul>
-           <ul style="text-align: center; color: #0EE6B7;">htm</ul>
-           <ul style="text-align: center; color: #0EE6B7;">joomla</ul>
+           <p style="text-align: center; color: #0EE6B7;">photoshop<p>
+           <p style="text-align: center; color: #0EE6B7;">php</p>
+           <p style="text-align: center; color: #0EE6B7;">htm</p>
+           <p style="text-align: center; color: #0EE6B7;">joomla</p>
         </p>
       </div>
 
@@ -104,10 +113,10 @@
  </div>     
   <hr> 
   <div>
-  <h3 style="margin: 20px;">
+  <h3 style="margin: 20px; color: #72D7F9;;">
     My projects
-    <li><a href="https://reginawangui.github.io/Art-Gallery/">Art-Gallery</a></li>
-    <li><a href="https://reginawangui.github.io/portfolio/">Portfolio</a></li>
+    <li><a href="https://reginawangui.github.io/Art-Gallery/" style="color: #0EE6B7;">Art-Gallery</a></li>
+    <li><a href="https://reginawangui.github.io/portfolio/" style="color: #0EE6B7;"  >Portfolio</a></li>
 
   </div>
   </h3>
