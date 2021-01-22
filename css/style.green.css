@@ -1,3 +1,4 @@
+
 /* 
 ========================================= 
 ========================================= 
@@ -12,6 +13,22 @@ Bootstrapious Boilerplate Template
 * GENERAL
 * =====================
 *
+=======
+/* 
+========================================= 
+========================================= 
+
+Bootstrapious Boilerplate Template
+
+========================================= 
+========================================= */
+/*
+*
+* =====================
+* GENERAL
+* =====================
+*
+>>>>>>> 4989c4b3668306756380bb7ba01f9261ce31295e
 */
 [data-animate] {
   visibility: hidden;
@@ -318,7 +335,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .testimonials .item .testimonial .name-picture {
-  
+  float: right;
   width: 80%;
   text-align: right;
 }
@@ -337,7 +354,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .testimonials .item .testimonial .name-picture img {
-  
+  float: right;
   width: 60px;
   border-radius: 30px;
   margin-left: 10px;
@@ -645,6 +662,7 @@ footer.main-footer p.template-bootstrapious {
 footer.main-footer p.template-bootstrapious a {
   color: #999;
 }
+
 
 /*
 

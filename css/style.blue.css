@@ -323,8 +323,6 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   text-align: right;
 }
 
-
-
 .testimonials .item .testimonial .name-picture h5 {
   font-size: 1rem;
   text-transform: uppercase;
@@ -339,7 +337,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .testimonials .item .testimonial .name-picture img {
-  
+  float: right;
   width: 60px;
   border-radius: 30px;
   margin-left: 10px;
