@@ -1,196 +1,380 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-
-<title>Regina's portfolio</title>
-
-<link rel="stylesheet" type="text/css" href="css/styles.css"> 
-
-</head>
-<body >
-<div class="container">
-
-<div class="row-self" style="columns:100px 2; margin:20px;">
-    <div class="column">
-      <img src="img/RLOGO.jpeg" width="20%" style="width: 100px; height: 70px; float: left;">>
-      </div>
-        <div class="column" style="width: 80%;">
-  <div class="topnav" id="myTopnav" style="width: 80%; margin-left: 0px;">
-    <a href="#index.html" class="active">Home</a>
-    <a href="my-projects.html">portfolio</a>
-    <a href="contact.html">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-</div>
-</div>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-      </script>
-  </div>
-   <hr>
-   
-  
-    
-      <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
-      style="background-color:#2C3458;color:#72D7F9; width:500px;height:100px;padding:40px; margin-left: 400px;">
-      dont be shy say hi</div>
-      
-      <script>
-      function mOver(obj) {
-        obj.innerHTML = "Hello Am Regina the person your looking for"
-      }
-      
-      function mOut(obj) {
-        obj.innerHTML = "dont be shy say hi"
-      }
-    </script>
-
-
-   <div class="row-self" style="columns:100px 2; margin:20px;">
-    <div class="column" style="width: 50px;">
-        <img src="img/self.jpg" style="width: 700px; height: 670px;">
-    </div>
-    <div class="column">
-        <div style="padding: 170px; background-color: #2C3458; margin-left:  90px;  width: 500px; height: 280px;">
-        <h3 >Name</h3>
-        <p >First Name : <strong>Regina</strong></p>
-        <p >Second Name: <strong>Wangui</strong></p>
-    </div>
-        <div style="background-color: #2C3458; margin-left:170px; margin-top :30px; padding-top:88px;padding-left: 10px ; width: 450px; height: 280px;">
-            <h3 >What i do</h3>
-            <p >Profession : <strong>Software developer</strong></p>
-            <p >language :<strong>JavaScrip , HTML</strong></p>
-            <p >expert :<strong>Wordpress</strong></p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reginah's portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">hello! am Regina ,<br> your software developer</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Experience</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
-
-</div>
- 
-<div>
-    <h1 style="color: #0EE6B7 ; margin: 30px;">Years of experience</h1>
-</div>
-
-<div class="row-details" style="columns:100px, 3 ; ">
-    <div class="column" style="background-color:#2C3458;height: 250px; width: 600px; margin: 10px; padding-top: 15px;" >
-        <h3 style="color: #0EE6B7; text-align: center;">2017</h3>
-        <p style="color: #0EE6B7; text-align: center;">studied graphic design and</p>
-            <p style="color: #0EE6B7; text-align: center;">web development at</p>
-            <p style="color: #0EE6B7; text-align: center;">Nairobits Trust.</p>
-           <p style="color: #0EE6B7; text-align: center;">Skills:</p>
-           <p style="text-align: center; color: #0EE6B7;">photoshop<p>
-           <p style="text-align: center; color: #0EE6B7;">php</p>
-           <p style="text-align: center; color: #0EE6B7;">htm</p>
-           <p style="text-align: center; color: #0EE6B7;">joomla</p>
-        </p>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">welcome !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">I grind HTML and CSS and then weld them with PHP and JAVASCRIPT into beautiful and efficient websites.</p>
       </div>
-
-      <div class="column" style="background-color:#2C3458;height: 250x; width: 600px; margin-top: 50px; padding-top: 15px;" >
-        <h3 style="color: #0EE6B7; text-align: center;">2018/2019</h3>
-        <p style="color: #0EE6B7; text-align: center;">studied graphic design and</p>
-            <p style="color: #0EE6B7; text-align: center;">worked in an it company
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <h3 >Name</h3>
+            <p >First Name : <strong>Regina</strong></p>
+            <p >Second Name: <strong>Wangui</strong></p>
+            <h3 >What i do</h3>
+              <p >Profession : <strong>Software developer</strong></p>
+              <p >language :<strong>JavaScrip , HTML , PHP</strong></p>
+              <p >expert :<strong>Wordpress</strong></p>
+               
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML coding</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Wordpress</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">What i do!</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-wordpress"></i></div>
+            <h3 class="heading mb-3 text-400">Wordpress</h3>
+            <p class="text-left description"> I create worpress website , am a backend and front end developer</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-html5"></i></div>
+            <h3 class="heading mb-3 text-400">HTML coding</h3>
+            <p class="text-left description">  create a structure for web pages and application which <includes:-> sections, paragraphs, headings, links, and blockquotes.</includes:-> </p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">PHP webdelopment</h3>
+            <p class="text-left description">I create functionality that develop Static websites or Dynamic websites or Web applications</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials-->
+    <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">Years of experience</h2>
+          <p data-animate="fadeInUp" class="lead">I am always glad to have a chance to work with my clinets.</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <h5>2017</h5> <br>
+                <p >studied graphic design and</p>
+                <p >web development at</p>
+                <p >Nairobits Trust.</p>
+               <p>Skills:</p>
+                   <p>php</p>
+               <p >htm</p>
+               <p>joomla</p>
+                            </div>
+              <div class="bottom">
+                <div class="name-picture"><img alt="" src="img/developer-icon-20.png" >
+                  
                  
-                </p>
-            <p style="color: #0EE6B7; text-align: center;">dealing with software </p>
-           <p style="color: #0EE6B7; text-align: center;">and hardwares</p>
-           
-        </p>
-      </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <h5>2018/19</h5><br>
 
-      <div class="column" style="background-color:#2C3458;height: 250px; width: 400px; margin: 10px; padding-top: 15px;" >
-        <h3 style="color: #0EE6B7; text-align: center;">2020/2021</h3>
-        <p style="color: #0EE6B7; text-align: center;">studied graphic design and</p>
-            <p style="color: #0EE6B7; text-align: center;">studie sofware development 
-                </p>
-            <p style="color: #0EE6B7; text-align: center;">at Moringa school</p>
-           
-        </p>
+                <p>graphic design</p>
+                   <p>skills</p>
+                   <p>Photoshop</p>
+                   <p>Illustrator</p>
+                <p>worked in an IT company</p>
+            <p>dealing with software </p>
+           <p>and hardwares</p>
+                         </div>
+              <div class="bottom">
+                <div class="name-picture"><img alt="" src="img/developer-icon-20.png" >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <h5>2020</h5><br>
+                <p>Python</p>
+                <p>Flask</p>
+                <p>AngularJS</p>
+                <P>GIT</P>
+                <P>Bash</P>
+                <p>JavaScript</p>
+                <p>at Moringa school</p>
+                            </div>
+              <div class="bottom">
+                <div class="name-picture"><img alt="" src="img/developer-icon-20.png" >
+                  
+          
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <h5>2021</h5><br>
+
+                <p> Angular</p>
+                <p>Djago </p>
+                <p>Java</p>
+                <p>Anroid</p>
+                <p>at Moringa school</p>
+                             </div>
+              <div class="bottom">
+                <div class="name-picture"><img alt="" src="img/developer-icon-20.png" >
+                </div>
+              </div>
+            </div>
+          </li>
+         
+        </ul>
       </div>
+    </section>
+   
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">some of my projects for you.</p>
+          </div>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/Art-Gallery-project.png" alt="" class="img-fluid" style="height: 300px; width: 300px;">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">ART GALLERY</h3>
+                            <p>click to view</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/Art-Gallery-project.png" class="sr-only reference-description">
+                        <p>This is a platform to show case diffarent types of art in diffarent time centuary.</p>
+                        <p>Also has diffarent type of Arts. Traditional categories within the arts include literature (including poetry, drama, story, and so on), the visual arts 
+                          (painting, drawing, sculpture, etc.), the graphic arts (painting, drawing, design, and other forms expressed on flat surfaces), the plastic arts (sculpture, modeling), 
+                          the decorative arts</p>
+                        <p class="buttons text-center"><a href="https://reginawangui.github.io/Art-Gallery/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="seo" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/Delani Studio .jpg" alt="" class="img-fluid" style="height: 300px; width: 300px;">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">delani stuido</h3>
+                            <p>click to view</p>
+                          </div>
+                        </div></a>
+                        <div data-images="img/Delani-Studio-project.png" class="sr-only reference-description">
+                          <p>This project implement everything you have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio as shown above.</p>
+                        <p class="buttons text-center"><a href="https://reginawangui.github.io/Delani-Studio/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/Pizza-inn-project.png" alt="" class="img-fluid" style="height: 300px; width: 300px;">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">PizzaInn</h3>
+                            <p>click to view</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/Pizza-inn-project.png" class="sr-only reference-description">
+                        <p>web application where your customers order different sizes of pizzas with one or more toppings .customer is able to Choose the size of pizza I want e.g Small, Medium, Large
+                          Choose what kind of crust I would like the pizza to have e.g Crispy, Stuffed, Gluten-free
+                          Choose the topping(s) I want on my pizza.
+                          Place an order for my Pizza and see the total charge for it.
+                          Have an option to order as many pizzas as I want.
+                          Have an option to have the pizza delivered or not.  If delivered I want to be alerted how much the delivery charge will be.
+                          If I want my pizza to be delivered, I want to be prompted to enter where the delivery should be made and an alert saying '' your order will be delivered to your location"
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/Birth-form-project.png" alt="" class="img-fluid" style="height: 300px; width: 300px;">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">BirtForm</h3>
+                            <p>click to view</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/Birth-form-project.png" class="sr-only reference-description">
+                        <p>This is a Project, you will be required to build a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name</p>
+                        <p class="buttons text-center"><a href="https://reginawangui.github.io/Birth-form/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </section>              
+   
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="contact-form" method="post" action="">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="name" placeholder="Your firstname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="surname" placeholder="Your lastname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="email" placeholder="Your email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="phone" placeholder="Your phone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-outline-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     
- </div>     
-  <hr> 
-  <div>
-  <h3 style="margin: 20px; color: #72D7F9;;">
-    My projects
-    <li><a href="https://reginawangui.github.io/Art-Gallery/" style="color: #0EE6B7;">Art-Gallery</a></li>
-    <li><a href="https://reginawangui.github.io/portfolio/" style="color: #0EE6B7;"  >Portfolio</a></li>
-
-  </div>
-  </h3>
- <div class="row-img" style="columns:100px, 4 ; width: 100%; ">
-  
-    <div class="column-4 " style="background-color:#2C3458; width: 300px;margin: 20px;" >
-        <img src="img/oie_ISA4OVv8k6NR.png">
-    </div>
-    <div class="column-4" style="background-color:#2C3458; width: 300px; margin: 20px;">
-        <img src="img/Screenshot from 2020-12-03 13-13-29.png">
-    </div>
-    <div class="column-4" style="background-color:#2C3458; width: 300px; margin: 20px;" >
-        <img src="img/Screenshot from 2020-12-03 13-13-37.png">
-    </div>
-    <div class="column-4" style="background-color:#2C3458; width: 300px; margin: 20px;" >
-        <img src="img/Screenshot from 2020-12-03 13-13-47.png">
-    </div>
-
-</div>
-
-
-   <footer>
-    <!-- Footer main -->
-    <section class="ft-main">
-      <div class="ft-main-item">
-        <h2 class="ft-title">About</h2>
-          <p>name</lp>
-          <p>profession</p>
-          <p>Experience</p>
-        
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2021 ReginaWangui. All rights reserved.</p>
+          </div>
+          <div class="col-12 mt-4">
+            <p class="template-bootstrapious">Designed & Developed  by ReginaWangui</p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div>
+        </div>
       </div>
-      <div class="ft-main-item">
-        <h2 class="ft-title">My Projects</h2>
-       <p>web pages</p>
-          <p>links</p>
-          
-      </div>
-      <div class="ft-main-item">
-        <h2 class="ft-title">Contact</h2>
-          <p>contact form</lp>
-          <p>social media links</p>
-          
-      </div>
-      <div class="ft-main-item">
-        <h2 class="ft-title">Get intouch</h2>
-        <form>
-          <input type="email" name="email" placeholder="Enter email address">
-          <input type="submit" value="Send">
-        </form>
-      </div>
-    </section>
-   
-    <!-- Footer social -->
-   
-    <!-- Footer legal -->
-    <section class="ft-legal" style="float: right; margin:0px; width: 100%;">
-      <ul class="ft-legal-list">
-        <li><a href="#"><i class="fab fa-facebook" style="margin: 3px;"></i></a><img src="img/fb.png" style="height: 30px; width: 30px; "></i></a>Regina Wangui</li>
-        <li><a href="#@wangui_reginah"><i class="fab fa-twitter" style="margin: 30px;"><img src="img/twitter.jpg" style="height: 30px; width: 30px;"></i></a>wangui_reginah</li>
-        <li><a href="#https://www.instagram.com/reginahwangui"><i class="fab fa-instagram" style="margin: 30px;"><img src="img/insta.jpeg" style="height: 30px; width: 30px;"></i></a>Regina Wangui</li>
-        <li><a href="#https://github.com/ReginaWangui"><i class="fab fa-linkedin" style="margin: 30px;"><img src="img/linked.png" style="height: 30px; width: 30px;"></i></a>Reginah Wangui</li>
-        <li style="float: right;">2020 Copyright</li>
-      </ul>
-    </section>
-  </footer>
-
-
-</div>
-
-</body>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
 </html>
