@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 
 ========================================= 
 ========================================= 
@@ -13,22 +12,6 @@ Bootstrapious Boilerplate Template
 * GENERAL
 * =====================
 *
-=======
-/* 
-========================================= 
-========================================= 
-
-Bootstrapious Boilerplate Template
-
-========================================= 
-========================================= */
-/*
-*
-* =====================
-* GENERAL
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 [data-animate] {
   visibility: hidden;
@@ -129,21 +112,12 @@ section {
   transition: all 0.1s !important;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * NAVBAR
 * =====================
 *
-=======
-/*
-*
-* =====================
-* NAVBAR
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 nav.navbar {
   padding-top: 0;
@@ -198,21 +172,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   }
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * INTRO
 * =====================
 *
-=======
-/*
-*
-* =====================
-* INTRO
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .intro-section {
   padding-top: 150px;
@@ -235,21 +200,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   }
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * ABOUT
 * =====================
 *
-=======
-/*
-*
-* =====================
-* ABOUT
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .about-section .skill-item {
   margin-bottom: 20px;
@@ -286,21 +242,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   background: #62c6b1;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * SERVICES
 * =====================
 *
-=======
-/*
-*
-* =====================
-* SERVICES
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .services-section hr {
   border-color: #fff;
@@ -315,21 +262,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   font-size: 0.9rem;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * TESTIMONIALS
 * =====================
 *
-=======
-/*
-*
-* =====================
-* TESTIMONIALS
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .testimonials {
   padding: 0;
@@ -426,21 +364,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   height: 100% !important;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * SHOWCASE
 * =====================
 *
-=======
-/*
-*
-* =====================
-* SHOWCASE
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .statistics-section {
   padding-top: 120px;
@@ -468,21 +397,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   font-size: 2.5rem;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * REFERENCES
 * =====================
 *
-=======
-/*
-*
-* =====================
-* REFERENCES
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 #filter {
   text-align: center;
@@ -547,15 +467,11 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 .reference h3 {
   font-weight: 400;
 }
-<<<<<<< HEAD
 .btn-success{
   color: #000 !important;
   background-color:#4fbfa8 !important;
   border-color: #4fbfa8 !important;
 }
-=======
-
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 .reference img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -638,82 +554,46 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   margin-top: 50px;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * CUSTOEMRS
 * =====================
 *
-=======
-/*
-*
-* =====================
-* CUSTOEMRS
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .customers-section img {
   padding: 10px;
   max-width: 80px;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * CONTACT
 * =====================
 *
-=======
-/*
-*
-* =====================
-* CONTACT
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .form-control {
   margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * MAP
 * =====================
 *
-=======
-/*
-*
-* =====================
-* MAP
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 #map {
   height: 400px;
 }
 
-<<<<<<< HEAD
 /*
 *
 * =====================
 * FOOTER
 * =====================
 *
-=======
-/*
-*
-* =====================
-* FOOTER
-* =====================
-*
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 footer.main-footer {
   padding: 60px 0;
@@ -770,21 +650,12 @@ footer.main-footer p.template-bootstrapious a {
   color: #999;
 }
 
-<<<<<<< HEAD
 /*
 
 =====================
 STYLE SWITCHER FOR DEMO
 =====================
 
-=======
-/*
-
-=====================
-STYLE SWITCHER FOR DEMO
-=====================
-
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 #style-switch-button {
   position: fixed;
@@ -809,19 +680,11 @@ STYLE SWITCHER FOR DEMO
   color: #495057;
 }
 
-<<<<<<< HEAD
 /* =========================================
    THEMING OF BOOTSTRAP COMPONENTS
    ========================================= */
 /*
  * 1. NAVBAR
-=======
-/* =========================================
-   THEMING OF BOOTSTRAP COMPONENTS
-   ========================================= */
-/*
- * 1. NAVBAR
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
  */
 .navbar {
   padding: 0.5rem 1rem;
@@ -923,13 +786,8 @@ STYLE SWITCHER FOR DEMO
   color: rgba(255, 255, 255, 0.5);
 }
 
-<<<<<<< HEAD
 /*
  * 2. BUTTONS
-=======
-/*
- * 2. BUTTONS
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
  */
 .btn {
   font-weight: 400;
@@ -1571,13 +1429,8 @@ STYLE SWITCHER FOR DEMO
   border-radius: 0rem;
 }
 
-<<<<<<< HEAD
 /*
  * 3. TYPE
-=======
-/*
- * 3. TYPE
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
  */
 body {
   font-family: "Roboto", sans-serif;
@@ -1715,13 +1568,8 @@ a.text-primary:hover, a.text-primary:focus {
   color: #3aa18c !important;
 }
 
-<<<<<<< HEAD
 /*
  * 4. PAGINATION
-=======
-/*
- * 4. PAGINATION
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
  */
 .page-item:first-child .page-link {
   border-top-left-radius: 0.25rem;
@@ -1792,13 +1640,8 @@ a.text-primary:hover, a.text-primary:focus {
   border-bottom-right-radius: 0.2rem;
 }
 
-<<<<<<< HEAD
 /*
 * 5. UTILITIES
-=======
-/*
-* 5. UTILITIES
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .bg-primary {
   background-color: #4fbfa8 !important;
@@ -2064,13 +1907,8 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #1d2124;
 }
 
-<<<<<<< HEAD
 /*
   * 6. FORMS
-=======
-/*
-  * 6. FORMS
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
   */
 .form-control {
   padding: 0.45rem 0.75rem;
@@ -2351,26 +2189,16 @@ select.form-control-lg:not([size]):not([multiple]) {
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
 }
 
-<<<<<<< HEAD
 /*
 * 7.CODE
-=======
-/*
-* 7.CODE
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 code {
   font-size: 87.5%;
   color: #e83e8c;
 }
 
-<<<<<<< HEAD
 /*
 * 8. NAV
-=======
-/*
-* 8. NAV
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .nav-link {
   padding: 0.5rem 1rem;
@@ -2418,13 +2246,8 @@ code {
   background-color: #4fbfa8;
 }
 
-<<<<<<< HEAD
 /*
 * 9. CARD
-=======
-/*
-* 9. CARD
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
 */
 .card {
   background-color: #fff;
