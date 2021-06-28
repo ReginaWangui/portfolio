@@ -30,7 +30,3 @@
 
 {MIT License
 Copyright (c) 2020 Regina Wangui}
-<<<<<<< HEAD
-=======
-
->>>>>>> b3971dad19689fd25c491a0ea1641139836d8d9c
