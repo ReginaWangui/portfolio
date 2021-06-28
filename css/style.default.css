@@ -467,7 +467,11 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 .reference h3 {
   font-weight: 400;
 }
-
+.btn-success{
+  color: #000 !important;
+  background-color:#4fbfa8 !important;
+  border-color: #4fbfa8 !important;
+}
 .reference img {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
